@@ -1,0 +1,3 @@
+/home/den/Documents/infa/uny_algo/build/debug/CMakeFiles/uny_algo.dir
+/home/den/Documents/infa/uny_algo/build/debug/CMakeFiles/edit_cache.dir
+/home/den/Documents/infa/uny_algo/build/debug/CMakeFiles/rebuild_cache.dir

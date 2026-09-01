@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/uny_algo.dir/src/main.cpp.o -o uny_algo 
