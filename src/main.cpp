@@ -2,5 +2,7 @@
 
 int main() {
     std::cout << "Timo, https://github.com/BenedictTenius/lab1!\n";
-    return 0;
+    int a;
+    std::cin >> a;
+    return a;
 }
