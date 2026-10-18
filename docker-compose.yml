@@ -1,0 +1,38 @@
+services:
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:8.15.3
+    environment:
+      - discovery.type=single-node
+      - xpack.security.enabled=false
+      - ES_JAVA_OPTS=-Xms512m -Xmx512m
+    ports: ["9200:9200"]
+    healthcheck:
+      test: curl -sf http://localhost:9200/_cluster/health
+      interval: 5s
+      retries: 60
+
+  app:
+    build: .
+    image: pipeline
+    user: ${UID:-1000}:${GID:-1000}
+    stdin_open: true
+    tty: true
+    environment:
+      ELASTIC_URL: http://elasticsearch:9200
+    volumes: ["./data:/app/data"]
+    depends_on:
+      elasticsearch: {condition: service_healthy}
+
+  gui:
+    build: .
+    image: pipeline
+    command: /app/pipeline-gui
+    user: ${UID:-1000}:${GID:-1000}
+    environment:
+      HOME: /tmp
+      ELASTIC_URL: http://elasticsearch:9200
+      DISPLAY: ${DISPLAY:-:0}
+      QT_X11_NO_MITSHM: 1
+    volumes: ["./data:/app/data", "/tmp/.X11-unix:/tmp/.X11-unix"]
+    depends_on:
+      elasticsearch: {condition: service_healthy}

@@ -1,0 +1,266 @@
+{
+  "pipes": [
+    [
+      1,
+      {
+        "id": 1,
+        "name": "km 360",
+        "length": 64.8,
+        "diameter": 500,
+        "inRepair": false,
+        "from": 4,
+        "to": 7
+      }
+    ],
+    [
+      2,
+      {
+        "id": 2,
+        "name": "km 2266",
+        "length": 126.6,
+        "diameter": 1000,
+        "inRepair": false,
+        "from": 1,
+        "to": 3
+      }
+    ],
+    [
+      3,
+      {
+        "id": 3,
+        "name": "km 2634",
+        "length": 200.2,
+        "diameter": 500,
+        "inRepair": false,
+        "from": 0,
+        "to": 0
+      }
+    ],
+    [
+      4,
+      {
+        "id": 4,
+        "name": "km 1427",
+        "length": 229.5,
+        "diameter": 1000,
+        "inRepair": true,
+        "from": 0,
+        "to": 0
+      }
+    ],
+    [
+      5,
+      {
+        "id": 5,
+        "name": "km 1093",
+        "length": 223.7,
+        "diameter": 1400,
+        "inRepair": false,
+        "from": 2,
+        "to": 6
+      }
+    ],
+    [
+      6,
+      {
+        "id": 6,
+        "name": "km 2587",
+        "length": 134.0,
+        "diameter": 500,
+        "inRepair": false,
+        "from": 0,
+        "to": 0
+      }
+    ],
+    [
+      7,
+      {
+        "id": 7,
+        "name": "km 241",
+        "length": 14.9,
+        "diameter": 1000,
+        "inRepair": true,
+        "from": 5,
+        "to": 6
+      }
+    ],
+    [
+      8,
+      {
+        "id": 8,
+        "name": "km 2909",
+        "length": 244.1,
+        "diameter": 500,
+        "inRepair": false,
+        "from": 2,
+        "to": 3
+      }
+    ],
+    [
+      9,
+      {
+        "id": 9,
+        "name": "km 1055",
+        "length": 173.1,
+        "diameter": 1000,
+        "inRepair": false,
+        "from": 4,
+        "to": 6
+      }
+    ],
+    [
+      10,
+      {
+        "id": 10,
+        "name": "km 2603",
+        "length": 272.8,
+        "diameter": 1400,
+        "inRepair": false,
+        "from": 5,
+        "to": 8
+      }
+    ],
+    [
+      11,
+      {
+        "id": 11,
+        "name": "km 739",
+        "length": 69.4,
+        "diameter": 1400,
+        "inRepair": false,
+        "from": 3,
+        "to": 5
+      }
+    ],
+    [
+      12,
+      {
+        "id": 12,
+        "name": "km 1860",
+        "length": 208.9,
+        "diameter": 500,
+        "inRepair": false,
+        "from": 0,
+        "to": 0
+      }
+    ],
+    [
+      13,
+      {
+        "id": 13,
+        "name": "km 274",
+        "length": 101.8,
+        "diameter": 1400,
+        "inRepair": false,
+        "from": 5,
+        "to": 7
+      }
+    ],
+    [
+      14,
+      {
+        "id": 14,
+        "name": "km 328",
+        "length": 261.6,
+        "diameter": 500,
+        "inRepair": false,
+        "from": 7,
+        "to": 8
+      }
+    ],
+    [
+      15,
+      {
+        "id": 15,
+        "name": "km 2808",
+        "length": 124.9,
+        "diameter": 1400,
+        "inRepair": false,
+        "from": 0,
+        "to": 0
+      }
+    ]
+  ],
+  "stations": [
+    [
+      1,
+      {
+        "id": 1,
+        "name": "Tomsk KS-1",
+        "workshops": 7,
+        "working": 0,
+        "stationClass": 5
+      }
+    ],
+    [
+      2,
+      {
+        "id": 2,
+        "name": "Tomsk KS-2",
+        "workshops": 6,
+        "working": 2,
+        "stationClass": 2
+      }
+    ],
+    [
+      3,
+      {
+        "id": 3,
+        "name": "Penza KS-3",
+        "workshops": 2,
+        "working": 1,
+        "stationClass": 3
+      }
+    ],
+    [
+      4,
+      {
+        "id": 4,
+        "name": "Perm KS-4",
+        "workshops": 2,
+        "working": 2,
+        "stationClass": 4
+      }
+    ],
+    [
+      5,
+      {
+        "id": 5,
+        "name": "Moscow KS-5",
+        "workshops": 2,
+        "working": 0,
+        "stationClass": 4
+      }
+    ],
+    [
+      6,
+      {
+        "id": 6,
+        "name": "Orel KS-6",
+        "workshops": 3,
+        "working": 3,
+        "stationClass": 3
+      }
+    ],
+    [
+      7,
+      {
+        "id": 7,
+        "name": "Tver KS-7",
+        "workshops": 1,
+        "working": 0,
+        "stationClass": 2
+      }
+    ],
+    [
+      8,
+      {
+        "id": 8,
+        "name": "Orel KS-8",
+        "workshops": 8,
+        "working": 2,
+        "stationClass": 5
+      }
+    ]
+  ]
+}
